@@ -2,13 +2,16 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import MaxWidthWrapper from "../components/max-width-wrapper/MaxWidthWrapper";
 import Footer from "../components/footer/Footer";
+import WithSubnavigation from "@/components/header/Header";
 
 export default function Home() {
   return (
     <>
       <div className="flex flex-col h-screen justify-between">
-        <header className="h-10 bg-red-500">Header</header>
-        <main className="mb-auto mt-5">
+        <header className="h-10 bg-red-500">
+          <WithSubnavigation />
+        </header>
+        <main className="mb-auto mt-12">
           <MaxWidthWrapper className="flex flex-col items-center justify-center text-center">
             <div>
               <h1 className="max-w-3xl text-4xl font-bold md:text-5xl lg:text-6xl">
