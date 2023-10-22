@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+npm i lucide-react tailwind-merge clsx
+
+ctr-shift-p > Developer: Reload Window
+
+---
+
+brug https://ui.shadcn.com/ til Themes og Components
+
 First, run the development server:
 
 ```bash
